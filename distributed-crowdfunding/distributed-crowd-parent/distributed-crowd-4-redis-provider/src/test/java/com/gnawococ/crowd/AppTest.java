@@ -21,7 +21,7 @@ public class AppTest
      * Rigorous Test :-)
      */
     @Autowired
-    private RedisTemplate<Object,Object> redisTemplate;
+    private RedisTemplate<String,Object> redisTemplate;
     @Test
     public void shouldAnswerWithTrue()
     {
@@ -30,7 +30,8 @@ public class AppTest
 
     @Test
     public void test(){
-        redisTemplate.opsForValue().set("", "");
+
+        redisTemplate.opsForValue().set("stu:1", "zhangsan");
 
     }
 

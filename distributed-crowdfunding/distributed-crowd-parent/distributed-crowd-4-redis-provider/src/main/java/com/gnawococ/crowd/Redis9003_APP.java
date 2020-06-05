@@ -12,8 +12,8 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
  **/
 @SpringBootApplication
 @EnableDiscoveryClient
-public class Redis8003_APP {
+public class Redis9003_APP {
     public static void main(String[] args) {
-        SpringApplication.run(Redis8003_APP.class,args);
+        SpringApplication.run(Redis9003_APP.class,args);
     }
 }
