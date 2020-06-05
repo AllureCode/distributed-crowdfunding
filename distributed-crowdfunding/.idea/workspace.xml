@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1227093c-e7a0-4db9-944f-a8847060c7fc" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\Java开发系列\Maven相关包\zip\apache-maven-3.6.1-bin\apache-maven-3.6.1\Resources" />
+        <option name="mavenHome" value="D:/Java开发系列/Maven相关包/zip/apache-maven-3.6.1-bin/apache-maven-3.6.1" />
+        <option name="userSettingsFile" value="D:\Java开发系列\Maven相关包\zip\apache-maven-3.6.1-bin\apache-maven-3.6.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1c1pPItpv7P1nRt3gexzesBjKJl" />
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/distributed-crowd-parent/distributed-crowd-3-database-provider/src/main/resources/mybatis/mapper" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.gnawococ.crowd" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\SSM_Case\Distributed-crowdfunding\distributed-crowdfunding\distributed-crowd-parent\distributed-crowd-3-database-provider\src\main\resources\mybatis\mapper" />
+      <recent name="E:\SSM_Case\Distributed-crowdfunding\distributed-crowdfunding\distributed-crowd-parent\distributed-crowd-3-database-provider\src\main\java\com\gnawococ\crowd" />
+      <recent name="E:\SSM_Case\Distributed-crowdfunding\distributed-crowdfunding\distributed-crowd-parent\distributed-crow-1-common\src\main\java\com\gnawococ\crowd" />
+      <recent name="E:\SSM_Case\Distributed-crowdfunding\distributed-crowdfunding\distributed-crowd-parent\distributed-crowd-test-mybatisgeneratorutils\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.gnawococ.crowd.utils" />
+      <recent name="com.gnawococ.crowd" />
+      <recent name="com.gnawococ.crowd.config" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\SSM_Case\Distributed-crowdfunding\distributed-crowdfunding\distributed-crowd-parent\distributed-crowd-6-mybatisgeneratorUtils\src\main\resources" />
+      <recent name="E:\SSM_Case\Distributed-crowdfunding\distributed-crowdfunding\distributed-crowd-parent\distributed-crowd-6-mybatisgeneratorUtils\src\main\java\com\gnawococ\crowd" />
+    </key>
+  </component>
+  <component name="RestServicesNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.AppTest.shouldAnswerWithTrue">
+    <configuration name="AppTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gnawococ.crowd.AppTest" />
+      <module name="distributed-crowd-test-mybatisgeneratorutils" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gnawococ.crowd.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppTest.shouldAnswerWithTrue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="distributed-crow-1-common" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gnawococ.crowd.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.gnawococ.crowd" />
+      <option name="MAIN_CLASS_NAME" value="com.gnawococ.crowd.AppTest" />
+      <option name="METHOD_NAME" value="shouldAnswerWithTrue" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="distributed-crowd-3-database-provider" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gnawococ.crowd.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.gnawococ.crowd" />
+      <option name="MAIN_CLASS_NAME" value="com.gnawococ.crowd.AppTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShowMessage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="distributed-crowd-test-mybatisgeneratorutils" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gnawococ.crowd.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.gnawococ.crowd" />
+      <option name="MAIN_CLASS_NAME" value="com.gnawococ.crowd.ShowMessage" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShowMessage.testMessage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="distributed-crowd-test-mybatisgeneratorutils" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gnawococ.crowd.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.gnawococ.crowd" />
+      <option name="MAIN_CLASS_NAME" value="com.gnawococ.crowd.ShowMessage" />
+      <option name="METHOD_NAME" value="testMessage" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.AppTest.shouldAnswerWithTrue" />
+        <item itemvalue="Application.AppTest" />
+        <item itemvalue="JUnit.ShowMessage.testMessage" />
+        <item itemvalue="JUnit.ShowMessage" />
+        <item itemvalue="JUnit.AppTest.test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\wang_sir\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1227093c-e7a0-4db9-944f-a8847060c7fc" name="Default Changelist" comment="" />
+      <created>1589705927728</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1589705927728</updated>
+      <workItem from="1589705928956" duration="1666000" />
+      <workItem from="1589707601932" duration="2327000" />
+      <workItem from="1590144326599" duration="10005000" />
+      <workItem from="1590568751050" duration="3009000" />
+      <workItem from="1590584550709" duration="4338000" />
+      <workItem from="1590589045198" duration="317000" />
+      <workItem from="1590589465271" duration="204000" />
+      <workItem from="1590630380424" duration="2095000" />
+      <workItem from="1590712721560" duration="10145000" />
+      <workItem from="1590827007214" duration="9949000" />
+      <workItem from="1591317470301" duration="4891000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>

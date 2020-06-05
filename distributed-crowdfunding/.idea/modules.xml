@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/distributed-crowd-parent/distributed-crow-1-common/distributed-crow-1-common.iml" filepath="$PROJECT_DIR$/distributed-crowd-parent/distributed-crow-1-common/distributed-crow-1-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/distributed-crowd-parent/distributed-crow-2-registry-center/distributed-crow-2-registry-center.iml" filepath="$PROJECT_DIR$/distributed-crowd-parent/distributed-crow-2-registry-center/distributed-crow-2-registry-center.iml" />
+      <module fileurl="file://$PROJECT_DIR$/distributed-crowd-parent/distributed-crowd-3-database-provider/distributed-crowd-3-database-provider.iml" filepath="$PROJECT_DIR$/distributed-crowd-parent/distributed-crowd-3-database-provider/distributed-crowd-3-database-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/distributed-crowd-parent/distributed-crowd-4-redis-provider/distributed-crowd-4-redis-provider.iml" filepath="$PROJECT_DIR$/distributed-crowd-parent/distributed-crowd-4-redis-provider/distributed-crowd-4-redis-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/distributed-crowd-parent/distributed-crowd-5-member-manager/distributed-crowd-5-member-manager.iml" filepath="$PROJECT_DIR$/distributed-crowd-parent/distributed-crowd-5-member-manager/distributed-crowd-5-member-manager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/distributed-crowd-parent/distributed-crowd-6-mybatisgeneratorUtils/distributed-crowd-6-mybatisgeneratorUtils.iml" filepath="$PROJECT_DIR$/distributed-crowd-parent/distributed-crowd-6-mybatisgeneratorUtils/distributed-crowd-6-mybatisgeneratorUtils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/distributed-crowd-parent/distributed-crowd-parent.iml" filepath="$PROJECT_DIR$/distributed-crowd-parent/distributed-crowd-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/distributed-crowd-parent/distributed-crowd-test-mybatisgeneratorutils/distributed-crowd-test-mybatisgeneratorutils.iml" filepath="$PROJECT_DIR$/distributed-crowd-parent/distributed-crowd-test-mybatisgeneratorutils/distributed-crowd-test-mybatisgeneratorutils.iml" />
+    </modules>
+  </component>
+</project>

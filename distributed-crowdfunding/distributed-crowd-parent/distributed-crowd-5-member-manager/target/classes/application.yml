@@ -1,0 +1,18 @@
+server:
+  port: 8004
+spring:
+  application:
+    name: member-manager
+#配置eureka
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8001/eureka/
+  instance:
+    ip-address: true
+#eureka对info信息的改善
+info:
+  app.name: gnawococ-microservice
+  company.name: www.gnawococ.com
+  build.artifactId: $project.artifactId$
+  build.version: $project.version$

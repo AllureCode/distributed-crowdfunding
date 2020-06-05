@@ -1,0 +1,32 @@
+#端口配置
+server:
+  port: 8003
+
+spring:
+  application:
+    name: redis-provider
+#redis配置
+  redis:
+    port: 6379
+    password: 123456
+    host: 192.168.14.131
+    lettuce:
+      pool:
+        max-active: 10
+        min-idle: 2
+        max-idle: 6
+    timeout: 2000
+#eureka配置
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localost:8001/eureka/
+  instance:
+    ip-address: true
+
+#eureka对info信息的改善
+info:
+  app.name: gnawococ-microservice
+  company.name: www.gnawococ.com
+  build.artifactId: $project.artifactId$
+  build.version: $project.version$

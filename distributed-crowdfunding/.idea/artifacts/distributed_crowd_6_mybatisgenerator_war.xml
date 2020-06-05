@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="distributed-crowd-6-mybatisgenerator:war">
+    <output-path>$PROJECT_DIR$/distributed-crowd-parent/distributed-crowd-6-mybatisgenerator/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>distributed-crowd-6-mybatisgenerator</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="distributed-crowd-6-mybatisgenerator-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="distributed-crowd-6-mybatisgenerator:war exploded" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="distributed-crowd-6-mybatisgeneratorUtils" />
+        <module name="distributed-crowd-3-database-provider" />
+        <module name="distributed-crowd-test-mybatisgeneratorutils" />
+        <module name="distributed-crow-2-registry-center" />
+        <module name="distributed-crowd-5-member-manager" />
+        <module name="distributed-crowd-4-redis-provider" />
+        <module name="distributed-crow-1-common" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="distributed-crow-1-common" target="1.8" />
+      <module name="distributed-crow-2-registry-center" target="1.8" />
+      <module name="distributed-crowd-3-database-provider" target="1.8" />
+      <module name="distributed-crowd-4-redis-provider" target="1.8" />
+      <module name="distributed-crowd-5-member-manager" target="1.8" />
+      <module name="distributed-crowd-6-mybatisgenerator" target="1.8" />
+      <module name="distributed-crowd-6-mybatisgeneratorUtils" target="1.8" />
+      <module name="distributed-crowd-parent" target="1.8" />
+      <module name="distributed-crowd-test-mybatisgeneratorutils" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
