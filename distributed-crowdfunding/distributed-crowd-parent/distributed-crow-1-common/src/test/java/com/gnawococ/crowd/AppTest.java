@@ -2,7 +2,6 @@ package com.gnawococ.crowd;
 
 import static org.junit.Assert.assertTrue;
 
-import com.gnawococ.crowd.entity.MemberPO;
 import com.gnawococ.crowd.utils.CrowUtils;
 import org.junit.Test;
 
