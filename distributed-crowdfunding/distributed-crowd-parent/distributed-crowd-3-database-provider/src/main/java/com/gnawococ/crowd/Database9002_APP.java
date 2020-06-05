@@ -14,8 +14,8 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 @SpringBootApplication
 @EnableDiscoveryClient
 @MapperScan("com.gnawococ.crowd.mapper")
-public class Database8002_APP {
+public class Database9002_APP {
     public static void main(String[] args) {
-        SpringApplication.run(Database8002_APP.class,args);
+        SpringApplication.run(Database9002_APP.class,args);
     }
 }

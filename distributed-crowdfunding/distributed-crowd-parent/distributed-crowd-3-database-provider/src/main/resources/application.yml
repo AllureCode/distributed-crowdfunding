@@ -1,5 +1,5 @@
 server:
-  port: 8002
+  port: 9002
 spring:
   application:
     name: databases-provide #当前微服务名称 注册服务信息必须要有的名称
@@ -21,7 +21,7 @@ mybatis:
 eureka:
   client:  #将客服端注册进eureka列表中
     service-url:
-      defaultZone: http://localhost:8001/eureka/
+      defaultZone: http://localhost:9001/eureka/
   instance:
 #    instance-id: microservicecloud-dept8001 #自定义服务器名称信息
     prefer-ip-address: true  #访问路径可以显示ip
