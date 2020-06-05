@@ -1,5 +1,5 @@
 server:
-  port: 8004
+  port: 9004
 spring:
   application:
     name: member-manager
@@ -7,7 +7,7 @@ spring:
 eureka:
   client:
     service-url:
-      defaultZone: http://localhost:8001/eureka/
+      defaultZone: http://localhost:9001/eureka/
   instance:
     ip-address: true
 #eureka对info信息的改善

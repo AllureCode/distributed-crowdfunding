@@ -12,8 +12,8 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
  **/
 @SpringBootApplication
 @EnableDiscoveryClient
-public class MemberManager8004_APP {
+public class MemberManager9004_APP {
     public static void main(String[] args) {
-        SpringApplication.run(MemberManager8004_APP.class,args);
+        SpringApplication.run(MemberManager9004_APP.class,args);
     }
 }
