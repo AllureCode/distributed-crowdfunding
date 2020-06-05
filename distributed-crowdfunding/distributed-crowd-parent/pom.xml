@@ -41,7 +41,7 @@
         <!--时间日期操作-->
         <joda-time.version>2.9.9</joda-time.version>
         <!--httpclient-->
-        <httpclient.version>4.2.1</httpclient.version>
+        <httpclient.version>4.5.5</httpclient.version>
         <!--功能组件-->
         <poi.version>3.16</poi.version>
         <quartz.version>2.2.3</quartz.version>
@@ -62,7 +62,7 @@
         <slf4j.version>1.7.6</slf4j.version>
         <logback.version>1.2.3</logback.version>
         <!--servlet api-->
-        <servlet-api.version>2.5</servlet-api.version>
+        <servlet-api.version>4.0</servlet-api.version>
         <jsp-api.version>2.2</jsp-api.version>
         <jstl.version>1.2</jstl.version>
     </properties>
@@ -272,27 +272,16 @@
             <version>${logback.version}</version>
         </dependency>
 <!--        &lt;!&ndash;短信相关&ndash;&gt;-->
-<!--        <dependency>-->
-<!--            <groupId>com.alibaba</groupId>-->
-<!--            <artifactId>fastjson</artifactId>-->
-<!--            <version>1.2.15</version>-->
-<!--        </dependency>-->
-<!--        <dependency>-->
-<!--            <groupId>org.apache.httpcomponents</groupId>-->
-<!--            <artifactId>httpclient</artifactId>-->
-<!--            <version>4.2.1</version>-->
-<!--        </dependency>-->
-<!--        <dependency>-->
-<!--            <groupId>org.apache.httpcomponents</groupId>-->
-<!--            <artifactId>httpcore</artifactId>-->
-<!--            <version>4.2.1</version>-->
-<!--        </dependency>-->
-<!--        <dependency>-->
-<!--            <groupId>commons-lang</groupId>-->
-<!--            <artifactId>commons-lang</artifactId>-->
-<!--            <version>2.6</version>-->
-<!--        </dependency>-->
-<!--        -->
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>1.2.15</version>
+        </dependency>
+        <dependency>
+            <groupId>commons-lang</groupId>
+            <artifactId>commons-lang</artifactId>
+            <version>2.6</version>
+        </dependency>
     </dependencies>
 </dependencyManagement>
 
