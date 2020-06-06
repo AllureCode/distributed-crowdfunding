@@ -25,6 +25,7 @@ public class AppTest
         assertTrue( true );
        String appcode = "cb67b38ba0844e79a008b5268678abcd";
        String phoneNum = "15398069231";
-       CrowUtils.sendShortMessage(appcode, phoneNum);
+       String randomCode = CrowUtils.randomCode(4);
+       CrowUtils.sendShortMessage(appcode,randomCode, phoneNum);
     }
 }

@@ -67,7 +67,7 @@ public class CrowUtils {
      * @Param: [appcode, randomCode, phoneNum]
      * @return: void
      **/
-    public static void sendShortMessage(String appcode, String phoneNum) throws Exception {
+    public static void sendShortMessage(String appcode,String randomCode, String phoneNum) throws Exception {
         //调用短信API时发送请求的目标地址
         //String host = "https://edisim.market.alicloudapi.com";
         String host = "https://edisim.market.alicloudapi.com";
@@ -89,7 +89,7 @@ public class CrowUtils {
         bodys.put("callbackUrl", "http://test.dev.esandcloud.com");
         bodys.put("mobile", phoneNum);
         bodys.put("templateID", "0000000");
-        bodys.put("templateParamSet", "['1234', '1']");
+        bodys.put("templateParamSet", "["+randomCode+',' +15+"]");
         try {
             HttpResponse response = HttpUtils.doPost(host, path, method, headers, querys,bodys);
             System.out.println(response.toString());
