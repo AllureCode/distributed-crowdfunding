@@ -16,3 +16,8 @@ info:
   company.name: www.gnawococ.com
   build.artifactId: $project.artifactId$
   build.version: $project.version$
+
+#自定义将appcode配置到yml中 后台利用@Value注解获取到对应的值
+crowd:
+  message:
+    appcode: cb67b38ba0844e79a008b5268678abcd
