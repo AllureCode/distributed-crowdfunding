@@ -6,7 +6,7 @@ spring:
   datasource:
     username: root
     password: username
-    url: jdbc:mysql://127.0.0.1:3306/clouddb01?serverTimezone=GMT&characterEncoding=UTF-8&allowMultiQueries=true
+    url: jdbc:mysql://127.0.0.1:3306/distributed-crowdfunding?serverTimezone=GMT&characterEncoding=UTF-8&allowMultiQueries=true
     driver-class-name: com.mysql.cj.jdbc.Driver
     type: com.alibaba.druid.pool.DruidDataSource
     dbcp2:

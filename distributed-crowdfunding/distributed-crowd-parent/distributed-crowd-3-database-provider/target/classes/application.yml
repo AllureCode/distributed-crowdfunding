@@ -1,12 +1,12 @@
 server:
-  port: 8002
+  port: 9002
 spring:
   application:
     name: databases-provide #当前微服务名称 注册服务信息必须要有的名称
   datasource:
     username: root
     password: username
-    url: jdbc:mysql://127.0.0.1:3306/clouddb01?serverTimezone=GMT&characterEncoding=UTF-8&allowMultiQueries=true
+    url: jdbc:mysql://127.0.0.1:3306/distributed-crowdfunding?serverTimezone=GMT&characterEncoding=UTF-8&allowMultiQueries=true
     driver-class-name: com.mysql.cj.jdbc.Driver
     type: com.alibaba.druid.pool.DruidDataSource
     dbcp2:
@@ -21,7 +21,7 @@ mybatis:
 eureka:
   client:  #将客服端注册进eureka列表中
     service-url:
-      defaultZone: http://localhost:8001/eureka/
+      defaultZone: http://localhost:9001/eureka/
   instance:
 #    instance-id: microservicecloud-dept8001 #自定义服务器名称信息
     prefer-ip-address: true  #访问路径可以显示ip

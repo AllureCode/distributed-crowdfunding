@@ -1,7 +1,9 @@
 package com.gnawococ.crowd.mapper;
 
 import com.gnawococ.crowd.entity.MemberPO;
+import org.apache.ibatis.annotations.Mapper;
 
+@Mapper
 public interface MemberPOMapper {
     int deleteByPrimaryKey(Integer id);
 
@@ -14,4 +16,6 @@ public interface MemberPOMapper {
     int updateByPrimaryKeySelective(MemberPO record);
 
     int updateByPrimaryKey(MemberPO record);
+
+    Integer selectByLoginAcct(String loginAcct);
 }

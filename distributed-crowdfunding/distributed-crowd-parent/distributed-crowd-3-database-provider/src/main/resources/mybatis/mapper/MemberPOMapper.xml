@@ -23,6 +23,10 @@
     from distributed-crowdfunding..t_member
     where id = #{id,jdbcType=INTEGER}
   </select>
+
+  <select id="selectByLoginAcct" resultType="integer" parameterType="string" >
+    select count(*) from t_member where loginacct = #{loginAcct}
+  </select>
   <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer" >
     delete from distributed-crowdfunding..t_member
     where id = #{id,jdbcType=INTEGER}
@@ -38,7 +42,7 @@
       #{accttype,jdbcType=TINYINT})
   </insert>
   <insert id="insertSelective" parameterType="com.gnawococ.crowd.entity.MemberPO" >
-    insert into distributed-crowdfunding..t_member
+    insert into t_member
     <trim prefix="(" suffix=")" suffixOverrides="," >
       <if test="id != null" >
         id,
@@ -150,4 +154,5 @@
       accttype = #{accttype,jdbcType=TINYINT}
     where id = #{id,jdbcType=INTEGER}
   </update>
+
 </mapper>

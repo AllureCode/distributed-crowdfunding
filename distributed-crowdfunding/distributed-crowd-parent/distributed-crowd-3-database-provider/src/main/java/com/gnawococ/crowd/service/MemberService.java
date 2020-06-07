@@ -1,5 +1,7 @@
 package com.gnawococ.crowd.service;
 
+import com.gnawococ.crowd.entity.MemberPO;
+
 /**
  * @Author:  wang_sir
  * @Description: member service
@@ -9,4 +11,12 @@ package com.gnawococ.crowd.service;
  **/
 public interface MemberService {
 
+    /**
+     * 根据账号查询对应的账户个数
+     * @param loginAcct
+     * @return
+     */
+    Integer getLoginAcct(String loginAcct);
+
+    int saveMemerPO(MemberPO memberPO);
 }
