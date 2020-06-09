@@ -2,6 +2,7 @@ package com.gnawococ.crowd;
 
 import static org.junit.Assert.assertTrue;
 
+import com.google.gson.internal.bind.JsonTreeReader;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -31,8 +32,10 @@ public class AppTest
     @Test
     public void test(){
 
-        redisTemplate.opsForValue().set("stu:1", "zhangsan");
+        //redisTemplate.opsForValue().set("stu:1", "zhangsan");
 
+        Object o = redisTemplate.opsForValue().get("RANDOM_CODE_15398069231");
+        System.out.println(o);
     }
 
 

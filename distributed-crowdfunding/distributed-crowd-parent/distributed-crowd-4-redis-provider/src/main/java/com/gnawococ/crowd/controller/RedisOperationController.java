@@ -74,8 +74,8 @@ public class RedisOperationController {
             return ResultEntity.failed(CrowdConstant.MESSAGE_REDIS_KEY_INVALID);
         }
         try {
-            String value = (String) redisTemplate.opsForValue().get(normalKey);
-            return ResultEntity.successWithData(value);
+            Object value =  redisTemplate.opsForValue().get(normalKey);
+            return ResultEntity.successWithData(value+"");
         } catch (Exception e) {
             e.printStackTrace();
             return ResultEntity.failed(CrowdConstant.MESSAGE_REDIS_RESULT_INVALID);
