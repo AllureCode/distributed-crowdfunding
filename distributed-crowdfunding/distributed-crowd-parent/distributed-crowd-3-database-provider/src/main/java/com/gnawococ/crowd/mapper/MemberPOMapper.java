@@ -18,4 +18,6 @@ public interface MemberPOMapper {
     int updateByPrimaryKey(MemberPO record);
 
     Integer selectByLoginAcct(String loginAcct);
+
+    MemberPO selectMemberByLoginAcct(String loginAcct);
 }

@@ -18,5 +18,17 @@ public interface MemberService {
      */
     Integer getLoginAcct(String loginAcct);
 
+    /**
+     * 保存对应的member信息
+     * @param memberPO
+     * @return
+     */
     int saveMemerPO(MemberPO memberPO);
+
+    /**
+     * 根据账户查询member
+     * @param loginAcct
+     * @return
+     */
+    MemberPO getMemberByLoginAcct(String loginAcct);
 }

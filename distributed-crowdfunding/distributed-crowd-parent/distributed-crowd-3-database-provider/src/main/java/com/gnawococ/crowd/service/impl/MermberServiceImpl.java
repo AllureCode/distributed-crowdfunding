@@ -30,6 +30,12 @@ public class MermberServiceImpl implements MemberService {
     public int saveMemerPO(MemberPO memberPO) {
        return memberPOMapper.insertSelective(memberPO);
     }
+
+    @Override
+    public MemberPO getMemberByLoginAcct(String loginAcct) {
+
+        return memberPOMapper.selectMemberByLoginAcct(loginAcct);
+    }
     /**
      * Corresponding  method
      */

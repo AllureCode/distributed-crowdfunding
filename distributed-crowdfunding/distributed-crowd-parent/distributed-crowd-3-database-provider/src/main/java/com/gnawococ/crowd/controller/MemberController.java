@@ -19,6 +19,12 @@ public class MemberController {
 
     @Autowired
     private MemberService memberService;
+
+    /**
+     *
+     * @param loginAcct
+     * @return
+     */
     @GetMapping("/retrieve/login/acct/count")
     ResultEntity<Integer> retrieveLoginAcctCount(@RequestParam("loginAcct")String loginAcct){
         Integer count = 0;
@@ -34,7 +40,6 @@ public class MemberController {
         }
     }
 
-
     @PostMapping("/save/member/remote")
     ResultEntity<String> saveMemberRemote(@RequestBody MemberPO memberPO){
         try {
@@ -43,6 +48,22 @@ public class MemberController {
         } catch (Exception e) {
             e.printStackTrace();
             return ResultEntity.failed(CrowdConstant.MESSAGE_MEMBER_SAVE_FAILED);
+        }
+    }
+
+    /**
+     * 查询登录账户
+     * @param loginAcct
+     * @return
+     */
+    @GetMapping("/retrieve/member/by/login/acct")
+    ResultEntity<MemberPO> retrieveMemberByLoginAcct(@RequestParam("loginAcct")String loginAcct){
+        try {
+            MemberPO memberPO =  memberService.getMemberByLoginAcct(loginAcct);
+            return ResultEntity.successWithData(memberPO);
+        } catch (Exception e) {
+            e.printStackTrace();
+            return ResultEntity.failed(e.getMessage());
         }
     }
 }
