@@ -28,4 +28,12 @@ public class AppTest
        String randomCode = CrowUtils.randomCode(4);
        CrowUtils.sendShortMessage(appcode,randomCode, phoneNum);
     }
+
+    /**
+     * 测试随机生成的token
+     */
+    @Test
+    public void testToken(){
+        System.out.println(CrowUtils.getTokenKey());
+    }
 }

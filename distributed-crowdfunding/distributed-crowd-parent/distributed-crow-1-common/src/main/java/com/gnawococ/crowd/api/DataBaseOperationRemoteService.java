@@ -29,4 +29,12 @@ public interface DataBaseOperationRemoteService {
      */
     @PostMapping("/save/member/remote")
     ResultEntity<String> saveMemberRemote(@RequestBody MemberPO memberPO);
+
+    /**
+     * 远程查询登录账户
+     * @param loginAcct
+     * @return
+     */
+    @GetMapping("/retrieve/member/by/login/acct")
+    ResultEntity<MemberPO> retrieveMemberByLoginAcct(@RequestParam("loginAcct")String loginAcct);
 }

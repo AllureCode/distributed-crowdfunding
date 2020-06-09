@@ -2,11 +2,13 @@ package com.gnawococ.crowd.utils;
 
 import org.apache.http.HttpResponse;
 import org.apache.http.util.EntityUtils;
+import org.omg.CORBA.PUBLIC_MEMBER;
 
 import java.io.IOException;
 import java.util.Collection;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.UUID;
 
 /**
  * @program: distributed-crowdfunding
@@ -24,6 +26,14 @@ public class CrowUtils {
      **/
     public static <E> boolean collectionEffectiveCheck(Collection<E> c) {
         return (c != null) && (c.size() > 0);
+    }
+
+    /**
+     * 生成随机token
+     * @return
+     */
+    public static String getTokenKey(){
+        return CrowdConstant.REDIS_MEMBER_SIGN_TOKEN_PREFIX+ UUID.randomUUID().toString().replaceAll("-", "");
     }
 
     /**

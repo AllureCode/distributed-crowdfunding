@@ -11,7 +11,7 @@ public class CrowdConstant {
      * 保存redis中存储的手机验证码
      */
     public static final String REDIS_RANDOM_CODE_PREFIX="RANDOM_CODE_";
-
+    public static final String REDIS_MEMBER_SIGN_TOKEN_PREFIX="SIGNED_MEMBER_";
     public static final String MESSAGE_REDIS_KEY_INVALID = "存入redis的key或者value不是有效的字符串";
     public static final String MESSAGE_REDIS_KEY_TIME_OUT_INVALID ="不接受o或null的时间，请正确设置保存时间" ;
     public static final String MESSAGE_REDIS_RESULT_INVALID = "返回的结果值无效" ;
@@ -23,4 +23,5 @@ public class CrowdConstant {
     public static final String MESSAGE_CODE_NOT_MATCH = "验证码不匹配";
     public static final String MESSAGE_CODE_NOT_EXISTS ="验证码不存在或已过期" ;
     public static final String MESSAGE_LOGIN_ACCT_OCCUPY = "当前账号被占用";
+    public static final String MESSAGE_LOGIN_FAILED = "当前登录的账户不存在或密码错误";
 }
